@@ -1,0 +1,12 @@
+package hmo.flightroute.domain.enums;
+
+public enum UserMessage {
+    INVALID_SCR,
+    INVALID_DEST,
+    INVALID_SRC_FOR_NEW_ROUTE,
+    INVALID_DEST_FOR_NEW_ROUTE,
+    INVALID_COST_FOR_ROUTE,
+    ROUTE_ALREADY_REGISTERED,
+    INPUT_ROUTE_FILE_ERROR,
+    INPUT_ROUTE_FILE_UPDATE_ERROR;
+}
